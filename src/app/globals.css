@@ -1,3 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Futura+PT:wght@300;400;700&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+  font-family: "Poppins";
+}
+
+.active-link {
+  color: #4dd7ad !important;
+  font-weight: 600 !important;
+}
+.active-link:hover {
+  color: #fff !important;
+}
+
+.mobileMenu .active-link:hover {
+  color: red !important;
+}
+
 :root {
   --max-width: 1100px;
   --border-radius: 12px;
