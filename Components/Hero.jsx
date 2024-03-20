@@ -1,7 +1,7 @@
 const Hero = () => {
   return (
     <section id="#home">
-      <div className="w-full flex md:flex-row gap-10 max-container flex-col md:justify-between justify-center min-h-screen items-center bg-hero bg-no-repeat bg-cover bg-fixed bg-center padding-x">
+      <div className="w-full flex md:flex-row gap-10 max-container flex-col md:justify-between justify-center min-h-screen items-center bg-hero bg-no-repeat bg-cover bg-fixed max-md:bg-scroll bg-center padding-x">
         <div>
           <p className="text-white text-4xl max-lg:text-3xl max-md:text-2xl font-montserrat">
             Be a part of the future
